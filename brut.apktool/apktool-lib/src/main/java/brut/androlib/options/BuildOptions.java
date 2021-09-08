@@ -14,17 +14,17 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package brut.androlib;
+package brut.androlib.options;
 
 import java.util.Collection;
 
-public class ApkOptions {
+public class BuildOptions {
     public boolean forceBuildAll = false;
     public boolean forceDeleteFramework = false;
     public boolean debugMode = false;
     public boolean verbose = false;
     public boolean copyOriginalFiles = false;
-    public boolean updateFiles = false;
+    public final boolean updateFiles = false;
     public boolean isFramework = false;
     public boolean resourcesAreCompressed = false;
     public boolean useAapt2 = false;
